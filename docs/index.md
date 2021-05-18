@@ -1,25 +1,6 @@
-# KROCO Dataset
+![title image](./img/crocodile01.png)
 
-KROCO is an acronym for __K__inesthetic __Ro__bot __Co__ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples. This repository contains dataset files in the hdf5 format.
-
-## Read Dataset
-
-### Python
-
-There is code in the folder `python` to load the dataset. Adapt the variable TODO to the destination of the dataset.
-
-`python load_data.py`
-
-### MathWork's Matlab
-
-An example to display the whole dataset and read the first segment:
-
-```
-h5disp('DATASET_PATH', '/')
-dataset0 = h5read('DATASET_PATH', '/data/0')
-```
-
-For more details, please check this [guide](https://de.mathworks.com/help/matlab/ref/h5read.html).
+KROCO is an acronym for __K__inesthetic __Ro__bot __Co__ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples that were collected via kinesthetic teaching. The dataset is in *hdf5* format.
 
 ## Dataset Description
 
@@ -77,3 +58,20 @@ The following table shows the 0-indexed data columns and the unit in brackets []
 ### Sample Rate
 
  The sample rate is 50 *Hz*.
+
+## Read Dataset
+
+### Python
+
+There is code in the repository ([python](../python/load_data.py)) to load the `hdf5` dataset. Adapt the variable `file_path` to the destination of the dataset.
+
+### Matlab
+
+An example to display the whole dataset and read the first segment:
+
+```
+h5disp('DATASET_PATH', '/')
+dataset0 = h5read('DATASET_PATH', '/data/0')
+```
+
+For more details, please check this [guide](https://de.mathworks.com/help/matlab/ref/h5read.html).
