@@ -1,6 +1,6 @@
 # KROCO Dataset
 
-KROCO is an acronym for __K__inesthetic __Ro__bot __Co__ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples. This repository contains dataset files in the hdf5 format.
+KROCO is an acronym for **K**inesthetic **Ro**bot **Co**ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples. This repository contains dataset files in the hdf5 format.
 
 ## Read Dataset
 
