@@ -75,3 +75,15 @@ dataset0 = h5read('DATASET_PATH', '/data/0')
 ```
 
 For more details, please check this [guide](https://de.mathworks.com/help/matlab/ref/h5read.html).
+
+## Reference
+If you find this dataset useful for your research, please consider citing it with the given reference
+```
+@InProceedings{eiband2019identification,
+  author       = {Eiband, Thomas and Lee, Dongeui},
+  booktitle    = {IEEE-RAS 2020 International Conference on Humanoid Robots (Humanoids)},
+  date         = {2021},
+  title        = {Identification of Common Force-based Robot Skills from the Human and Robot Perspective},
+  organization = {IEEE},
+}
+```
