@@ -63,7 +63,7 @@ The following table shows the 0-indexed data columns and the unit in brackets []
 
 ### Python
 
-There is code in the repository ([python](../python/load_data.py)) to load the `hdf5` dataset. Adapt the variable `file_path` to the destination of the dataset.
+There is code in the repository ([python](https://github.com/teiband/KROCO/python)) to load the `hdf5` dataset. Adapt the variable `file_path` to the destination of the dataset.
 
 ### Matlab
 
