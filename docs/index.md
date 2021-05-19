@@ -1,4 +1,4 @@
-![title image](./img/crocodile01.png)
+<img src="./img/crocodile01.png" alt="title image" style="zoom:25%;" />
 
 KROCO is an acronym for **K**inesthetic **Ro**bot **Co**ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples that were collected via kinesthetic teaching. The dataset is in *hdf5* format.
 
