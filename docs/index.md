@@ -1,6 +1,6 @@
 <img src="./img/crocodile01.png" alt="title image" width="400" align="right"/>
 
-KROCO is an acronym for **K**inesthetic **Ro**bot **Co**ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples that were collected via kinesthetic teaching. The dataset is in *hdf5* format.
+KROCO is an acronym for **K**inesthetic **Ro**bot **Co**ntacts. The dataset consists of Learning from Demonstration (LfD, aka Programming by Demonstration (PbD)) samples that were collected via kinesthetic teaching. Each labeled sample is a contact-based (force-based) interaction with the environment. The dataset is in *hdf5* format.
 
 * [Download Link]( https://dx.doi.org/10.21227/nhea-gt59 )
 * Digital Object Identifier (DOI): nhea-gt59
